@@ -1,0 +1,491 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F8722 ]
+[d frameptr 4065 ]
+"7 /opt/microchip/xc8/v2.36/pic/sources/c99/common/awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"4 /opt/microchip/xc8/v2.36/pic/sources/c99/common/fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"4 /opt/microchip/xc8/v2.36/pic/sources/c99/common/flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"62 /opt/microchip/xc8/v2.36/pic/sources/c99/common/float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 /opt/microchip/xc8/v2.36/pic/sources/c99/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 /opt/microchip/xc8/v2.36/pic/sources/c99/common/ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 /opt/microchip/xc8/v2.36/pic/sources/c99/common/ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 /opt/microchip/xc8/v2.36/pic/sources/c99/common/ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"9 /opt/microchip/xc8/v2.36/pic/sources/c99/common/nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"10 /opt/microchip/xc8/v2.36/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 /opt/microchip/xc8/v2.36/pic/sources/c99/common/sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 /opt/microchip/xc8/v2.36/pic/sources/c99/common/sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 /opt/microchip/xc8/v2.36/pic/sources/c99/common/Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 /opt/microchip/xc8/v2.36/pic/sources/c99/common/Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 /opt/microchip/xc8/v2.36/pic/sources/c99/common/xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"19 /home/alex/MPLABXProjects/ccf2.X/ex2.c
+[v _initPortTOR initPortTOR `(v  1 e 1 0 ]
+"27
+[v _testBtnPressed testBtnPressed `(i  1 e 2 0 ]
+"53
+[v _ex2 ex2 `(v  1 e 1 0 ]
+"45 /home/alex/MPLABXProjects/ccf2.X/fonctions_LCD.c
+[v _lcdInit lcdInit `(v  1 e 1 0 ]
+"70
+[v _InitBBSPI InitBBSPI `(v  1 e 1 0 ]
+"91
+[v _SendByteBBSPI SendByteBBSPI `(v  1 e 1 0 ]
+"123
+[v _Port_BBSPIInit Port_BBSPIInit `(v  1 e 1 0 ]
+"144
+[v _WritePort_BBSPI WritePort_BBSPI `(v  1 e 1 0 ]
+"160
+[v _LCDPutChar LCDPutChar `(v  1 e 1 0 ]
+"179
+[v _LCDPutInst LCDPutInst `(v  1 e 1 0 ]
+"198
+[v _LCDPutStr LCDPutStr `(v  1 e 1 0 ]
+"202
+[v _lcdGoTo lcdGoTo `(v  1 e 1 0 ]
+"209
+[v _lcdGoToLC lcdGoToLC `(v  1 e 1 0 ]
+"215
+[v _lcdClear lcdClear `(v  1 e 1 0 ]
+"12 /home/alex/MPLABXProjects/ccf2.X/main.c
+[v _main main `(v  1 e 1 0 ]
+[s S83 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"2685 /opt/microchip/mplabx/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8/pic/include/proc/pic18f8722.h
+[s S194 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 VREFM 1 0 :1:2 
+`uc 1 VREFP 1 0 :1:3 
+`uc 1 T0CKI 1 0 :1:4 
+`uc 1 LVDIN 1 0 :1:5 
+]
+[s S200 . 1 `uc 1 AN0 1 0 :1:0 
+`uc 1 AN1 1 0 :1:1 
+`uc 1 AN2 1 0 :1:2 
+`uc 1 AN3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 AN4 1 0 :1:5 
+]
+[s S207 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 HLVDIN 1 0 :1:5 
+]
+[s S210 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+`uc 1 . 1 0 :6:1 
+`uc 1 RJPU 1 0 :1:7 
+]
+[u S214 . 1 `S83 1 . 1 0 `S194 1 . 1 0 `S200 1 . 1 0 `S207 1 . 1 0 `S210 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES214  1 e 1 @3968 ]
+[s S43 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"2834
+[s S124 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 INT3 1 0 :1:3 
+`uc 1 KBI0 1 0 :1:4 
+`uc 1 KBI1 1 0 :1:5 
+`uc 1 KBI2 1 0 :1:6 
+`uc 1 KBI3 1 0 :1:7 
+]
+[s S133 . 1 `uc 1 FLT0 1 0 :1:0 
+`uc 1 . 1 0 :2:1 
+`uc 1 ECCP2 1 0 :1:3 
+]
+[s S137 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2 1 0 :1:3 
+]
+[s S140 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 P2A 1 0 :1:3 
+]
+[s S143 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S146 . 1 `S43 1 . 1 0 `S124 1 . 1 0 `S133 1 . 1 0 `S137 1 . 1 0 `S140 1 . 1 0 `S143 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES146  1 e 1 @3969 ]
+"3196
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+[s S707 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"4507
+[s S716 . 1 `uc 1 LA0 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+`uc 1 LA2 1 0 :1:2 
+`uc 1 LA3 1 0 :1:3 
+`uc 1 LA4 1 0 :1:4 
+`uc 1 LA5 1 0 :1:5 
+`uc 1 LA6 1 0 :1:6 
+`uc 1 LA7 1 0 :1:7 
+]
+[u S725 . 1 `S707 1 . 1 0 `S716 1 . 1 0 ]
+[v _LATAbits LATAbits `VES725  1 e 1 @3977 ]
+[s S747 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"4731
+[s S756 . 1 `uc 1 LC0 1 0 :1:0 
+`uc 1 LC1 1 0 :1:1 
+`uc 1 LC2 1 0 :1:2 
+`uc 1 LC3 1 0 :1:3 
+`uc 1 LC4 1 0 :1:4 
+`uc 1 LC5 1 0 :1:5 
+`uc 1 LC6 1 0 :1:6 
+`uc 1 LC7 1 0 :1:7 
+]
+[u S765 . 1 `S747 1 . 1 0 `S756 1 . 1 0 ]
+[v _LATCbits LATCbits `VES765  1 e 1 @3979 ]
+[s S587 . 1 `uc 1 LATF0 1 0 :1:0 
+`uc 1 LATF1 1 0 :1:1 
+`uc 1 LATF2 1 0 :1:2 
+`uc 1 LATF3 1 0 :1:3 
+`uc 1 LATF4 1 0 :1:4 
+`uc 1 LATF5 1 0 :1:5 
+`uc 1 LATF6 1 0 :1:6 
+`uc 1 LATF7 1 0 :1:7 
+]
+"5067
+[s S596 . 1 `uc 1 LF0 1 0 :1:0 
+`uc 1 LF1 1 0 :1:1 
+`uc 1 LF2 1 0 :1:2 
+`uc 1 LF3 1 0 :1:3 
+`uc 1 LF4 1 0 :1:4 
+`uc 1 LF5 1 0 :1:5 
+`uc 1 LF6 1 0 :1:6 
+`uc 1 LF7 1 0 :1:7 
+]
+[u S605 . 1 `S587 1 . 1 0 `S596 1 . 1 0 ]
+[v _LATFbits LATFbits `VES605  1 e 1 @3982 ]
+[s S74 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"5490
+[u S92 . 1 `S74 1 . 1 0 `S83 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES92  1 e 1 @3986 ]
+[s S34 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"5712
+[u S52 . 1 `S34 1 . 1 0 `S43 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES52  1 e 1 @3987 ]
+[s S667 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"5934
+[s S676 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S685 . 1 `S667 1 . 1 0 `S676 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES685  1 e 1 @3988 ]
+"6124
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+[s S547 . 1 `uc 1 TRISF0 1 0 :1:0 
+`uc 1 TRISF1 1 0 :1:1 
+`uc 1 TRISF2 1 0 :1:2 
+`uc 1 TRISF3 1 0 :1:3 
+`uc 1 TRISF4 1 0 :1:4 
+`uc 1 TRISF5 1 0 :1:5 
+`uc 1 TRISF6 1 0 :1:6 
+`uc 1 TRISF7 1 0 :1:7 
+]
+"6600
+[s S556 . 1 `uc 1 RF0 1 0 :1:0 
+`uc 1 RF1 1 0 :1:1 
+`uc 1 RF2 1 0 :1:2 
+`uc 1 RF3 1 0 :1:3 
+`uc 1 RF4 1 0 :1:4 
+`uc 1 RF5 1 0 :1:5 
+`uc 1 RF6 1 0 :1:6 
+`uc 1 RF7 1 0 :1:7 
+]
+[u S565 . 1 `S547 1 . 1 0 `S556 1 . 1 0 ]
+[v _TRISFbits TRISFbits `VES565  1 e 1 @3991 ]
+[s S347 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSP1IE 1 0 :1:3 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 PSPIE 1 0 :1:7 
+]
+"7533
+[s S356 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+]
+[u S361 . 1 `S347 1 . 1 0 `S356 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES361  1 e 1 @3997 ]
+[s S315 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"7616
+[s S324 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+]
+[u S329 . 1 `S315 1 . 1 0 `S324 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES329  1 e 1 @3998 ]
+"10104
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"10175
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"10260
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+[s S431 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"10304
+[s S434 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+]
+[s S438 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S441 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+]
+[s S448 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S451 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S454 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S457 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S460 . 1 `S431 1 . 1 0 `S434 1 . 1 0 `S438 1 . 1 0 `S441 1 . 1 0 `S448 1 . 1 0 `S451 1 . 1 0 `S454 1 . 1 0 `S457 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES460  1 e 1 @4034 ]
+"10386
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"10393
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+[s S379 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"13145
+[s S388 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S397 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S401 . 1 `S379 1 . 1 0 `S388 1 . 1 0 `S397 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES401  1 e 1 @4082 ]
+"16 /home/alex/MPLABXProjects/ccf2.X/ex3.c
+[v _temp temp `i  1 e 2 0 ]
+"12 /home/alex/MPLABXProjects/ccf2.X/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"16
+} 0
+"53 /home/alex/MPLABXProjects/ccf2.X/ex2.c
+[v _ex2 ex2 `(v  1 e 1 0 ]
+{
+"56
+[v ex2@L_ret L_ret `i  1 a 2 13 ]
+"82
+} 0
+"27
+[v _testBtnPressed testBtnPressed `(i  1 e 2 0 ]
+{
+"50
+} 0
+"45 /home/alex/MPLABXProjects/ccf2.X/fonctions_LCD.c
+[v _lcdInit lcdInit `(v  1 e 1 0 ]
+{
+"61
+} 0
+"123
+[v _Port_BBSPIInit Port_BBSPIInit `(v  1 e 1 0 ]
+{
+[v Port_BBSPIInit@port_dir port_dir `uc  1 a 1 wreg ]
+[v Port_BBSPIInit@port_dir port_dir `uc  1 a 1 wreg ]
+"128
+[v Port_BBSPIInit@port_dir port_dir `uc  1 a 1 3 ]
+"133
+} 0
+"70
+[v _InitBBSPI InitBBSPI `(v  1 e 1 0 ]
+{
+"81
+} 0
+"209
+[v _lcdGoToLC lcdGoToLC `(v  1 e 1 0 ]
+{
+[v lcdGoToLC@P_Ligne P_Ligne `uc  1 a 1 wreg ]
+"211
+[v lcdGoToLC@L_Adresse L_Adresse `uc  1 a 1 10 ]
+"209
+[v lcdGoToLC@P_Ligne P_Ligne `uc  1 a 1 wreg ]
+[v lcdGoToLC@P_Col P_Col `uc  1 p 1 8 ]
+"212
+[v lcdGoToLC@P_Ligne P_Ligne `uc  1 a 1 9 ]
+"214
+} 0
+"202
+[v _lcdGoTo lcdGoTo `(v  1 e 1 0 ]
+{
+[v lcdGoTo@P_Pos P_Pos `uc  1 a 1 wreg ]
+[v lcdGoTo@P_Pos P_Pos `uc  1 a 1 wreg ]
+"205
+[v lcdGoTo@P_Pos P_Pos `uc  1 a 1 7 ]
+"206
+} 0
+"179
+[v _LCDPutInst LCDPutInst `(v  1 e 1 0 ]
+{
+[v LCDPutInst@ch ch `uc  1 a 1 wreg ]
+[v LCDPutInst@ch ch `uc  1 a 1 wreg ]
+"181
+[v LCDPutInst@ch ch `uc  1 a 1 6 ]
+"189
+} 0
+"19 /home/alex/MPLABXProjects/ccf2.X/ex2.c
+[v _initPortTOR initPortTOR `(v  1 e 1 0 ]
+{
+"25
+} 0
+"7 /opt/microchip/xc8/v2.36/pic/sources/c99/common/awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 0 ]
+[v ___awmod@divisor divisor `i  1 p 2 2 ]
+"34
+} 0
+"198 /home/alex/MPLABXProjects/ccf2.X/fonctions_LCD.c
+[v _LCDPutStr LCDPutStr `(v  1 e 1 0 ]
+{
+[v LCDPutStr@ptr ptr `*.34Cuc  1 p 2 7 ]
+"201
+} 0
+"160
+[v _LCDPutChar LCDPutChar `(v  1 e 1 0 ]
+{
+[v LCDPutChar@ch ch `uc  1 a 1 wreg ]
+[v LCDPutChar@ch ch `uc  1 a 1 wreg ]
+"162
+[v LCDPutChar@ch ch `uc  1 a 1 6 ]
+"170
+} 0
+"144
+[v _WritePort_BBSPI WritePort_BBSPI `(v  1 e 1 0 ]
+{
+[v WritePort_BBSPI@port_add port_add `uc  1 a 1 wreg ]
+[v WritePort_BBSPI@port_add port_add `uc  1 a 1 wreg ]
+[v WritePort_BBSPI@a a `uc  1 p 1 3 ]
+"146
+[v WritePort_BBSPI@port_add port_add `uc  1 a 1 4 ]
+"151
+} 0
+"91
+[v _SendByteBBSPI SendByteBBSPI `(v  1 e 1 0 ]
+{
+[v SendByteBBSPI@output output `uc  1 a 1 wreg ]
+"94
+[v SendByteBBSPI@input input `uc  1 a 1 2 ]
+"93
+[v SendByteBBSPI@bitcount bitcount `uc  1 a 1 1 ]
+"91
+[v SendByteBBSPI@output output `uc  1 a 1 wreg ]
+"94
+[v SendByteBBSPI@output output `uc  1 a 1 0 ]
+"114
+} 0
